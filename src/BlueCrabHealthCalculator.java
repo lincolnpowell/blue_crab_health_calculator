@@ -3,8 +3,8 @@
 * to input blue crab attributes to determine whether it is healthy or unhealthy.
 *
 * @author Lincoln Powell
-* @version 1.0
-* @since 2/18/2018 
+* @version 1.1
+* @since 2/23/2018
 */
 
 import java.awt.*;
@@ -20,7 +20,7 @@ public class BlueCrabHealthCalculator extends JFrame {
     private JButton jbCalculate;
     
     // Window width and height.
-    private final int WINDOW_WIDTH = 465, WINDOW_HEIGHT = 240;
+    private final int WINDOW_WIDTH = 350, WINDOW_HEIGHT = 240;
     
     // Holds the values that will be displayed in the jcbMonths combo box.
     private final Integer[] MONTHS = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
